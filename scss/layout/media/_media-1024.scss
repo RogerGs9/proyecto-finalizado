@@ -1,0 +1,14 @@
+@media (max-width: 1024px){
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        
+        .redesfooter{
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+    }

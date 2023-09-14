@@ -1,0 +1,42 @@
+@media(max-width:480px){
+    section{
+    .sectionDos{
+        max-width: 300px;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.sectionUn{
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.cards{
+    max-width: 200px;
+}
+.card{
+    max-width: 200px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: auto;
+    .redesfooter{
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+header{
+    div{
+        img{
+            max-width: 300px;
+        }
+    }
+}
+}

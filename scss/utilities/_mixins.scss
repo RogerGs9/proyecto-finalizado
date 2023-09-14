@@ -1,0 +1,13 @@
+@mixin flex($align,$justify){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+@mixin flexfooter($flex,$align,$justify,$gap){
+    display: flex;
+    flex: $flex;
+    align-items: $align;
+    justify-content: $justify;
+    gap: $gap;
+}

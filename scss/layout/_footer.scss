@@ -1,0 +1,30 @@
+footer{
+    background-color: rgb(240, 0, 180);
+    @include flexfooter (wrap,flex-start,center,200px);
+    .footerflex{
+        margin-top: 20px;}
+        text-align: center;
+        h3{
+            font-size: 30px;}
+        p{
+            font-size: 20px;
+        }
+        }
+    .redesfooter{
+        display: flex;
+        margin-top: 50px;
+        gap: 10px;
+        align-items: center;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .logofooter{
+        margin-top: 10px;
+    }
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+section{
+    background-color: rgb(241, 152, 230);
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        text-align: center;
+        font-size: 60px;}
+    .sectionUn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    .cardpes{
+        border-radius: 10px;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+    .cardcejas{
+        @extend .cardpes;
+    }
+    .cardpro{
+        @extend .cardpes;
+    }
+    .cardlimp{
+        @extend .cardpes;
+    }
+    
+}
+}

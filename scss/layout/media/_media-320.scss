@@ -1,0 +1,14 @@
+@media (max-width: 320px){
+    footer{
+        display: grid;
+        grid-template-columns: auto;
+        .redesfooter{
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    }
+    .card{
+        max-width: 150px;
+    }
+    }

@@ -1,0 +1,9 @@
+@media (max-width: 1300px) {
+    section{
+        .sectionDos{
+            max-width: 500px;
+            display: grid;
+            grid-template-columns: auto;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+    header{
+        div{
+            img{
+                max-width: 400px;
+            }
+        }
+    }
+.sectionDos{
+            max-width: 500px;
+            display: grid;
+            grid-template-columns: auto;
+        }
+footer{
+            display: grid;
+            grid-template-columns: auto;
+            .redesfooter{
+                justify-content: center;
+                text-align: center;
+            }
+        }
+        
+}
