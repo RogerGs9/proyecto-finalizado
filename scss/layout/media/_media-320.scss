@@ -1,4 +1,4 @@
-@media (max-width: 320px){
+@media (max-width: 20rem){
     footer{
         display: grid;
         grid-template-columns: auto;
@@ -9,6 +9,6 @@
         }
     }
     .card{
-        max-width: 150px;
+        max-width: 9.375rem;
     }
     }

@@ -1,13 +1,13 @@
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
     header{
         div{
             img{
-                max-width: 400px;
+                max-width: 25rem;
             }
         }
     }
 .sectionDos{
-            max-width: 500px;
+            max-width: 31.25rem;
             display: grid;
             grid-template-columns: auto;
         }

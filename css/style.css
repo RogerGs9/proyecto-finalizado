@@ -1,58 +1,69 @@
 * {
   padding: 0%;
   margin: 0%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 header {
-  background-color: #f01c90;
+  background-color: rgb(240, 28, 144);
   background-size: cover;
-  padding: 20px; }
-  header div {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    header div nav ul {
-      list-style: none;
-      text-align: center;
-      background-color: #f01c90;
-      padding: 0;
-      margin: 0; }
-      header div nav ul li {
-        display: inline-block;
-        padding: 20px;
-        align-items: center; }
-        header div nav ul li a {
-          color: black;
-          text-decoration: none;
-          width: 100%;
-          display: block;
-          transition: 0.5s;
-          font-size: 35px; }
-          header div nav ul li a:hover {
-            background-color: #f38dc5;
-            border-radius: 10px;
-            padding: 10px; }
+  padding: 20px;
+}
+header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header div nav ul {
+  list-style: none;
+  text-align: center;
+  background-color: rgb(240, 28, 144);
+  padding: 0;
+  margin: 0;
+}
+header div nav ul li {
+  display: inline-block;
+  padding: 20px;
+  align-items: center;
+}
+header div nav ul li a {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  transition: 0.5s;
+  font-size: 35px;
+}
+header div nav ul li a:hover {
+  background-color: rgb(243, 141, 197);
+  border-radius: 10px;
+  padding: 10px;
+}
 
 section {
-  background-color: #f198e6;
+  background-color: rgb(241, 152, 230);
   background-repeat: no-repeat;
-  background-size: cover; }
-  section h1 {
-    text-align: center;
-    font-size: 60px; }
-  section .sectionUn {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px; }
-    section .sectionUn .cardpes, section .sectionUn .cardcejas, section .sectionUn .cardpro, section .sectionUn .cardlimp {
-      border-radius: 10px; }
-      section .sectionUn .cardpes:hover, section .sectionUn .cardcejas:hover, section .sectionUn .cardpro:hover, section .sectionUn .cardlimp:hover {
-        transform: scale(1.05); }
-
+  background-size: cover;
+}
 section h1 {
-  justify-content: center; }
-
+  text-align: center;
+  font-size: 60px;
+}
+section .sectionUn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+section .sectionUn .cardpes, section .sectionUn .cardlimp, section .sectionUn .cardpro, section .sectionUn .cardcejas {
+  border-radius: 10px;
+}
+section .sectionUn .cardpes:hover, section .sectionUn .cardlimp:hover, section .sectionUn .cardpro:hover, section .sectionUn .cardcejas:hover {
+  transform: scale(1.05);
+}
+section h1 {
+  justify-content: center;
+}
 section .sectionDos {
   width: 100%;
   max-width: 1200px;
@@ -62,19 +73,23 @@ section .sectionDos {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   text-align: center;
-  font-size: 20px; }
-  section .sectionDos div .cards {
-    border-radius: 20px;
-    transition: 0.5s;
-    object-fit: cover; }
-    section .sectionDos div .cards:hover {
-      transform: scale(1.05); }
-  section .sectionDos div h2 {
-    margin-top: 10px; }
+  font-size: 20px;
+}
+section .sectionDos div .cards {
+  border-radius: 20px;
+  transition: 0.5s;
+  object-fit: cover;
+}
+section .sectionDos div .cards:hover {
+  transform: scale(1.05);
+}
+section .sectionDos div h2 {
+  margin-top: 10px;
+}
 
 section h1 {
-  justify-content: center; }
-
+  justify-content: center;
+}
 section .sectionDos {
   width: 100%;
   max-width: 1200px;
@@ -84,152 +99,193 @@ section .sectionDos {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   text-align: center;
-  font-size: 20px; }
-  section .sectionDos div img {
-    border-radius: 20px; }
+  font-size: 20px;
+}
+section .sectionDos div img {
+  border-radius: 20px;
+}
 
 section {
-  background-color: #f198e6;
+  background-color: rgb(241, 152, 230);
   background-repeat: no-repeat;
-  background-size: cover; }
-  section h1 {
-    text-align: center;
-    font-size: 60px; }
-  section .sectionTr {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px; }
-    section .sectionTr .card {
-      border-radius: 20px;
-      gap: 20px; }
+  background-size: cover;
+}
+section h1 {
+  text-align: center;
+  font-size: 60px;
+}
+section .sectionTr {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+section .sectionTr .card {
+  border-radius: 20px;
+  gap: 20px;
+}
 
 section {
-  background-color: #f198e6;
+  background-color: rgb(241, 152, 230);
   background-repeat: no-repeat;
-  background-size: cover; }
-  section h1 {
-    text-align: center;
-    font-size: 60px; }
-  section .sectionCu {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px; }
-    section .sectionCu .card {
-      border-radius: 20px;
-      gap: 20px; }
+  background-size: cover;
+}
+section h1 {
+  text-align: center;
+  font-size: 60px;
+}
+section .sectionCu {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+section .sectionCu .card {
+  border-radius: 20px;
+  gap: 20px;
+}
 
 footer {
-  background-color: #f000b4;
+  background-color: rgb(240, 28, 144);
   display: flex;
   flex: wrap;
   align-items: flex-start;
   justify-content: center;
   gap: 200px;
-  text-align: center; }
-  footer .footerflex {
-    margin-top: 20px; }
-  footer h3 {
-    font-size: 30px; }
-  footer p {
-    font-size: 20px; }
+  text-align: center;
+}
+footer .footerflex {
+  font-family: "Franklin Gothic Medium";
+  color: black;
+  margin-top: 20px;
+}
+footer h3 {
+  font-size: 30px;
+}
+footer p {
+  font-size: 20px;
+}
 
 .redesfooter {
   display: flex;
   margin-top: 50px;
   gap: 10px;
-  align-items: center; }
-  .redesfooter:hover {
-    transform: scale(1.1); }
+  align-items: center;
+}
+.redesfooter:hover {
+  transform: scale(1.1);
+}
 
 .logofooter {
-  margin-top: 10px; }
+  margin-top: 10px;
+}
 
-.button1, .button2, .button3, .button4 {
+.button1, .button4, .button3, .button2 {
   border-radius: 5px;
   padding: 5px 10px;
   text-align: center;
   font-size: 20px;
   cursor: pointer;
-  box-shadow: 3px 3px 3px black; }
+  box-shadow: 3px 3px 3px black;
+}
 
 .button2 {
-  box-shadow: 3px 3px 5px fuchsia; }
+  box-shadow: 3px 3px 5px fuchsia;
+}
 
 .button3 {
-  box-shadow: 3px 3px 5px black; }
+  box-shadow: 3px 3px 5px black;
+}
 
 .button4 {
-  box-shadow: 3px 3px 5px fuchsia; }
+  box-shadow: 3px 3px 5px fuchsia;
+}
 
 /*El Tema de los Extend los hice rebasicos, por tiempo y es que de verdad no me da mas la cabeza para saber donde colocarlos**/
-@media (max-width: 1300px) {
+@media (max-width: 81.25rem) {
   section .sectionDos {
-    max-width: 500px;
-    display: grid;
-    grid-template-columns: auto; } }
-
-@media (max-width: 1024px) {
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center; }
-    footer .redesfooter {
-      justify-content: center;
-      text-align: center;
-      margin-bottom: 10px; } }
-
-@media (max-width: 768px) {
-  header div img {
-    max-width: 400px; }
-  .sectionDos {
-    max-width: 500px;
-    display: grid;
-    grid-template-columns: auto; }
-  footer {
-    display: grid;
-    grid-template-columns: auto; }
-    footer .redesfooter {
-      justify-content: center;
-      text-align: center; } }
-
-@media (max-width: 480px) {
-  section .sectionDos {
-    max-width: 300px;
+    max-width: 31.25rem;
     display: grid;
     grid-template-columns: auto;
-    align-items: center;
-    justify-content: center; }
-  .sectionUn {
-    max-width: 300px;
+  }
+}
+@media (max-width: 64rem) {
+  footer {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  footer .redesfooter {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.625rem;
+  }
+}
+@media (max-width: 48rem) {
+  header div img {
+    max-width: 25rem;
+  }
+  .sectionDos {
+    max-width: 31.25rem;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  footer .redesfooter {
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 30rem) {
+  section .sectionDos {
+    max-width: 18.75rem;
     display: grid;
     grid-template-columns: auto;
     align-items: center;
     justify-content: center;
-    margin: auto; }
+  }
+  .sectionUn {
+    max-width: 18.75rem;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
   .cards {
-    max-width: 200px; }
+    max-width: 12.5rem;
+  }
   .card {
-    max-width: 200px; }
+    max-width: 12.5rem;
+  }
   footer {
     display: grid;
-    grid-template-columns: auto; }
-    footer .redesfooter {
-      justify-content: center;
-      text-align: center;
-      margin-bottom: 30px; }
+    grid-template-columns: auto;
+  }
+  footer .redesfooter {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 1.875rem;
+  }
   header div img {
-    max-width: 300px; } }
-
-@media (max-width: 320px) {
+    max-width: 18.75rem;
+  }
+}
+@media (max-width: 20rem) {
   footer {
     display: grid;
-    grid-template-columns: auto; }
-    footer .redesfooter {
-      justify-content: center;
-      text-align: center;
-      margin-bottom: 10px; }
+    grid-template-columns: auto;
+  }
+  footer .redesfooter {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
   .card {
-    max-width: 150px; } }
+    max-width: 9.375rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

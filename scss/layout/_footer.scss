@@ -1,7 +1,9 @@
 footer{
-    background-color: rgb(240, 0, 180);
+    background-color: $background-principal;
     @include flexfooter (wrap,flex-start,center,200px);
     .footerflex{
+        font-family: 'Franklin Gothic Medium';
+        color: $color-fuentefoot;
         margin-top: 20px;}
         text-align: center;
         h3{

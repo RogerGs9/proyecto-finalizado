@@ -1,14 +1,11 @@
-@media (max-width: 1024px){
+@media (max-width: 64rem){
     footer{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: flex-start;
-        justify-content: center;
-        
+        display: grid;
+        grid-template-columns: auto;
         .redesfooter{
             justify-content: center;
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: .625rem;
         }
     }
     }
